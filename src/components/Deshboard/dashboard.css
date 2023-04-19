@@ -1,0 +1,30 @@
+.dasContainer{
+  display: flex;
+  flex-direction: column;
+}
+.dasHeader{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.dasCard{
+  display: grid;
+  width: 100%;
+  gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 150px 150px 150px;
+}
+.items-1{
+  background-color: #fff;
+  border-radius: 15px;
+  margin-left: 30px;
+}
+.items-2{
+  background-color: #fff;
+  border-radius: 15px;
+}
+.items-3{
+  background-color: #fff;
+  border-radius: 15px;
+  margin-right: 30px;
+}

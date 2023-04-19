@@ -1,0 +1,11 @@
+.wrapper{
+    background: #2C3539;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 0px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+  
+  }
